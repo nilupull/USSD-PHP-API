@@ -11,8 +11,8 @@ class Operations
 
 	public function setSessions($sessions){
 
-		$sql_sessions="INSERT INTO `sessions` (`sessionsid`, `tel`, `menu`, `pg`, `created_at`,`others`) VALUES 
-			('".$sessions['sessionid']."', '".$sessions['tel']."', '".$sessions['menu']."', '".$sessions['pg']."', 'CURRENT_TIMESTAMP','".$sessions['others']."')";
+		$sql_sessions="INSERT INTO `sessions` (`sessionsid`, `tel`, `menu`, `pg`,`others`) VALUES
+			('".$sessions['sessionid']."', '".$sessions['tel']."', '".$sessions['menu']."', '".$sessions['pg']."','".$sessions['others']."')";
 
 		$quy_sessions=mysql_query($sql_sessions);
 	}

@@ -1,0 +1,149 @@
+[19-Sep-2015 09:44:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 09:44:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 09:46:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 09:48:16 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in C:\wamp\www\USSD-PHP-API\db.php on line 3
+[19-Sep-2015 09:48:16 UTC] PHP Stack trace:
+[19-Sep-2015 09:48:16 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:48:16 UTC] PHP   2. require() C:\wamp\www\USSD-PHP-API\ussdap.php:9
+[19-Sep-2015 09:48:16 UTC] PHP   3. mysql_select_db() C:\wamp\www\USSD-PHP-API\db.php:3
+[19-Sep-2015 09:48:16 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in C:\wamp\www\USSD-PHP-API\db.php on line 3
+[19-Sep-2015 09:48:16 UTC] PHP Stack trace:
+[19-Sep-2015 09:48:16 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:48:16 UTC] PHP   2. require() C:\wamp\www\USSD-PHP-API\ussdap.php:9
+[19-Sep-2015 09:48:16 UTC] PHP   3. mysql_select_db() C:\wamp\www\USSD-PHP-API\db.php:3
+[19-Sep-2015 09:57:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 09:57:41 UTC] PHP Notice:  Undefined index: sourceAddress in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 30
+[19-Sep-2015 09:57:41 UTC] PHP Stack trace:
+[19-Sep-2015 09:57:41 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:57:41 UTC] PHP   2. UssdReceiver->__construct() C:\wamp\www\USSD-PHP-API\ussdap.php:22
+[19-Sep-2015 09:57:41 UTC] PHP Notice:  Undefined index: requestId in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 32
+[19-Sep-2015 09:57:41 UTC] PHP Stack trace:
+[19-Sep-2015 09:57:41 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:57:41 UTC] PHP   2. UssdReceiver->__construct() C:\wamp\www\USSD-PHP-API\ussdap.php:22
+[19-Sep-2015 09:57:41 UTC] PHP Notice:  Undefined index: version in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 35
+[19-Sep-2015 09:57:41 UTC] PHP Stack trace:
+[19-Sep-2015 09:57:41 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:57:41 UTC] PHP   2. UssdReceiver->__construct() C:\wamp\www\USSD-PHP-API\ussdap.php:22
+[19-Sep-2015 09:57:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 09:58:05 UTC] PHP Notice:  Undefined index: sourceAddress in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 30
+[19-Sep-2015 09:58:05 UTC] PHP Stack trace:
+[19-Sep-2015 09:58:05 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:58:05 UTC] PHP   2. UssdReceiver->__construct() C:\wamp\www\USSD-PHP-API\ussdap.php:22
+[19-Sep-2015 09:58:05 UTC] PHP Notice:  Undefined index: requestId in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 32
+[19-Sep-2015 09:58:05 UTC] PHP Stack trace:
+[19-Sep-2015 09:58:05 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:58:05 UTC] PHP   2. UssdReceiver->__construct() C:\wamp\www\USSD-PHP-API\ussdap.php:22
+[19-Sep-2015 09:58:05 UTC] PHP Notice:  Undefined index: version in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 35
+[19-Sep-2015 09:58:05 UTC] PHP Stack trace:
+[19-Sep-2015 09:58:05 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 09:58:05 UTC] PHP   2. UssdReceiver->__construct() C:\wamp\www\USSD-PHP-API\ussdap.php:22
+[19-Sep-2015 09:58:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 10:02:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 10:17:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 10:17:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 10:31:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 10:34:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 10:35:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 11:56:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 11:57:02 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in C:\wamp\www\USSD-PHP-API\class\operationsClass.php on line 17
+[19-Sep-2015 11:57:02 UTC] PHP Stack trace:
+[19-Sep-2015 11:57:02 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 11:57:02 UTC] PHP   2. Operations->setSessions() C:\wamp\www\USSD-PHP-API\ussdap.php:54
+[19-Sep-2015 11:57:02 UTC] PHP   3. mysql_query() C:\wamp\www\USSD-PHP-API\class\operationsClass.php:17
+[19-Sep-2015 11:57:02 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in C:\wamp\www\USSD-PHP-API\class\operationsClass.php on line 17
+[19-Sep-2015 11:57:02 UTC] PHP Stack trace:
+[19-Sep-2015 11:57:02 UTC] PHP   1. {main}() C:\wamp\www\USSD-PHP-API\ussdap.php:0
+[19-Sep-2015 11:57:02 UTC] PHP   2. Operations->setSessions() C:\wamp\www\USSD-PHP-API\ussdap.php:54
+[19-Sep-2015 11:57:02 UTC] PHP   3. mysql_query() C:\wamp\www\USSD-PHP-API\class\operationsClass.php:17
+[19-Sep-2015 12:00:12 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 12:00:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 12:00:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 12:00:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 12:00:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 12:00:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 13:14:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40
+[19-Sep-2015 13:30:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Some of the required parameters are not provided' in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php:40
+Stack trace:
+#0 C:\wamp\www\USSD-PHP-API\ussdap.php(22): UssdReceiver->__construct()
+#1 {main}
+  thrown in C:\wamp\www\USSD-PHP-API\libs\MoUssdReceiver.php on line 40

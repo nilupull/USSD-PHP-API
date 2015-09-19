@@ -4,8 +4,8 @@ ini_set('error_log', 'ussd-app-error.log');
 
 require 'libs/MoUssdReceiver.php';
 require 'libs/MtUssdSender.php';
-require 'class/operationsClass.php';
-require 'log.php';
+require 'class/operationsClass.php'; 
+require 'libs/log.php';
 require 'db.php';
 
 
@@ -23,6 +23,7 @@ $receiver 	= new UssdReceiver();
 $sender 	= new UssdSender($ussdserverurl,'APP_000001','password');
 $operations = new Operations();
 
+var_dump($operations);
 $receiverSessionId = $receiver->getSessionId();
 $content 			= 	$receiver->getMessage(); // get the message content
 $address 			= 	$receiver->getAddress(); // get the sender's address
@@ -108,7 +109,7 @@ if ($ussdOperation  == "mo-init") {
 			default:
 				$operations->session_menu="main";
 				$operations->saveSesssion();
-				$sender->ussd($sessionId,'Incorrect option',$address );
+				$sender->ussd($sessionId,'Incorrect option'.$cuch_menu,$address );
 				break;
 		}
 	
